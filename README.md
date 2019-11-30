@@ -17,3 +17,9 @@ $ mv 4.8.1-arduino5 orig.4.8.1
 $ ln -s /Applications/Arduino.app/Contents/Java/hardware/tools/avr 4.8.1-arduino5
 ```
 You could just delete the old stuff I suppose.  But that should cover it for you.  Fire up Arduino IDE as normal and get back to work :)
+
+
+#### file not uploading
+Had to try three different USB dongles to get this to work.
+
+If the Arduino application works fine but the computer does not recognize the Digispark after you are asked to plug it in - try a usb extension cable or hub, some MacBook's ports are recessed too far for the data connectors to make contact.
