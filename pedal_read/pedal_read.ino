@@ -1,4 +1,5 @@
 
+int MOTOR_PIN = 0;
 int LED_PIN = 1;
 int PEDAL_PIN = A1;
 
@@ -16,5 +17,6 @@ void setup(){
   delay (1);
 
   analogWrite(LED_PIN, pedal_value);
+  analogWrite(MOTOR_PIN, pedal_value);
  
   }
