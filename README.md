@@ -1,4 +1,5 @@
-# harp_glove
+This is a repository with code and work documentation for a pager motor actuator glove used to play harp and other string instruments. 
+
 
 
 ### Getting digispark to work:
